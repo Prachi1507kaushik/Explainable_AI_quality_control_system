@@ -1,0 +1,197 @@
+{
+  "target_column": "target_pm25_6h",
+  "target_horizon_hours": 6,
+  "stations_used": [
+    "TG004",
+    "DL034",
+    "TG003",
+    "RJ005",
+    "TG002",
+    "RJ004",
+    "UP016",
+    "KL008",
+    "RJ006",
+    "DL012"
+  ],
+  "n_stations": 10,
+  "split_boundaries": {
+    "train_end_date": "2019-01-01",
+    "valid_end_date": "2019-09-01"
+  },
+  "row_counts": {
+    "train": 127696,
+    "valid": 55144,
+    "test": 69986
+  },
+  "n_features": 103,
+  "feature_columns": [
+    "pm2_5",
+    "pm10",
+    "no",
+    "no2",
+    "nox",
+    "nh3",
+    "co",
+    "so2",
+    "o3",
+    "benzene",
+    "toluene",
+    "xylene",
+    "aqi",
+    "hour",
+    "day_of_week",
+    "day_of_year",
+    "month",
+    "is_weekend",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos",
+    "pm2_5_lag_1h",
+    "pm2_5_lag_3h",
+    "pm2_5_lag_6h",
+    "pm2_5_lag_12h",
+    "pm2_5_lag_24h",
+    "pm10_lag_1h",
+    "pm10_lag_3h",
+    "pm10_lag_6h",
+    "pm10_lag_12h",
+    "pm10_lag_24h",
+    "no2_lag_1h",
+    "no2_lag_3h",
+    "no2_lag_6h",
+    "no2_lag_12h",
+    "no2_lag_24h",
+    "no_lag_1h",
+    "no_lag_3h",
+    "no_lag_6h",
+    "no_lag_12h",
+    "no_lag_24h",
+    "nox_lag_1h",
+    "nox_lag_3h",
+    "nox_lag_6h",
+    "nox_lag_12h",
+    "nox_lag_24h",
+    "so2_lag_1h",
+    "so2_lag_3h",
+    "so2_lag_6h",
+    "so2_lag_12h",
+    "so2_lag_24h",
+    "co_lag_1h",
+    "co_lag_3h",
+    "co_lag_6h",
+    "co_lag_12h",
+    "co_lag_24h",
+    "o3_lag_1h",
+    "o3_lag_3h",
+    "o3_lag_6h",
+    "o3_lag_12h",
+    "o3_lag_24h",
+    "nh3_lag_1h",
+    "nh3_lag_3h",
+    "nh3_lag_6h",
+    "nh3_lag_12h",
+    "nh3_lag_24h",
+    "pm2_5_roll_mean_3h",
+    "pm2_5_roll_mean_6h",
+    "pm2_5_roll_mean_12h",
+    "pm2_5_roll_mean_24h",
+    "pm10_roll_mean_3h",
+    "pm10_roll_mean_6h",
+    "pm10_roll_mean_12h",
+    "pm10_roll_mean_24h",
+    "no2_roll_mean_3h",
+    "no2_roll_mean_6h",
+    "no2_roll_mean_12h",
+    "no2_roll_mean_24h",
+    "no_roll_mean_3h",
+    "no_roll_mean_6h",
+    "no_roll_mean_12h",
+    "no_roll_mean_24h",
+    "nox_roll_mean_3h",
+    "nox_roll_mean_6h",
+    "nox_roll_mean_12h",
+    "nox_roll_mean_24h",
+    "so2_roll_mean_3h",
+    "so2_roll_mean_6h",
+    "so2_roll_mean_12h",
+    "so2_roll_mean_24h",
+    "co_roll_mean_3h",
+    "co_roll_mean_6h",
+    "co_roll_mean_12h",
+    "co_roll_mean_24h",
+    "o3_roll_mean_3h",
+    "o3_roll_mean_6h",
+    "o3_roll_mean_12h",
+    "o3_roll_mean_24h",
+    "nh3_roll_mean_3h",
+    "nh3_roll_mean_6h",
+    "nh3_roll_mean_12h",
+    "nh3_roll_mean_24h"
+  ],
+  "missing_value_handling": "SimpleImputer(strategy='median'), fit on TRAIN split only",
+  "random_seed": 42,
+  "model_comparison": {
+    "persistence_baseline": {
+      "train": {
+        "mae": 32.64690146911414,
+        "rmse": 77.7139870533166,
+        "r2": 0.26979482143982947
+      },
+      "valid": {
+        "mae": 22.20272105759466,
+        "rmse": 40.74519404046102,
+        "r2": 0.3866453731773001
+      }
+    },
+    "linear_regression": {
+      "train": {
+        "mae": 26.449815015588765,
+        "rmse": 61.687223047140186,
+        "r2": 0.5399161723700643
+      },
+      "valid": {
+        "mae": 18.82380877258787,
+        "rmse": 32.195957771903224,
+        "r2": 0.6170328144474426
+      }
+    },
+    "random_forest": {
+      "train": {
+        "mae": 17.711317152509142,
+        "rmse": 39.966218225418764,
+        "r2": 0.8068776052574889
+      },
+      "valid": {
+        "mae": 18.132504755597953,
+        "rmse": 33.37886341400512,
+        "r2": 0.5883748009294971
+      }
+    },
+    "xgboost": {
+      "train": {
+        "mae": 21.41943673474032,
+        "rmse": 48.41464966353876,
+        "r2": 0.716599824772937
+      },
+      "valid": {
+        "mae": 17.427959080598498,
+        "rmse": 31.453435605859312,
+        "r2": 0.634493550878456
+      },
+      "best_iteration": 101,
+      "test": {
+        "mae": 20.449464345884913,
+        "rmse": 38.67128213147965,
+        "r2": 0.6766197075175416
+      }
+    }
+  },
+  "selected_model": "xgboost",
+  "selection_criterion": "lowest validation MAE",
+  "test_metrics_selected_model_only": {
+    "mae": 20.449464345884913,
+    "rmse": 38.67128213147965,
+    "r2": 0.6766197075175416
+  }
+}

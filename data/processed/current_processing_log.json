@@ -1,0 +1,65 @@
+{
+  "raw_shape": [
+    3458,
+    11
+  ],
+  "raw_columns": [
+    "country",
+    "state",
+    "city",
+    "station",
+    "last_update",
+    "latitude",
+    "longitude",
+    "pollutant_id",
+    "pollutant_min",
+    "pollutant_max",
+    "pollutant_avg"
+  ],
+  "standardized_columns": [
+    "country",
+    "state",
+    "city",
+    "station",
+    "last_update",
+    "latitude",
+    "longitude",
+    "pollutant_id",
+    "pollutant_min",
+    "pollutant_max",
+    "pollutant_avg"
+  ],
+  "exact_duplicates_removed": 0,
+  "unparseable_timestamps": 0,
+  "is_single_timestamp_snapshot": true,
+  "timestamp_value": "2026-08-24 05:00:00",
+  "rows_flagged_invalid_lat_lon": 0,
+  "rows_flagged_impossible_pollutant_values": 0,
+  "missing_pollutant_avg_before_pivot": 313,
+  "input_was_long_format": true,
+  "duplicate_station_pollutant_combinations": 0,
+  "final_shape": [
+    494,
+    16
+  ],
+  "final_columns": [
+    "country",
+    "state",
+    "city",
+    "station",
+    "timestamp",
+    "latitude",
+    "longitude",
+    "CO",
+    "NH3",
+    "NO2",
+    "OZONE",
+    "PM10",
+    "PM2.5",
+    "SO2",
+    "lat_lon_flag_invalid",
+    "pollutant_flag_impossible"
+  ],
+  "unique_stations": 494,
+  "unique_cities": 258
+}

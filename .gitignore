@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large raw/processed data - not committed to git, documented in README instead
+data/raw/*.csv
+data/processed/*.csv
+
+# Model artifacts (regenerate via src/train.py)
+models/*.pkl
+
+# OS/editor
+.DS_Store
+.ipynb_checkpoints/

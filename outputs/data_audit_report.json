@@ -1,0 +1,266 @@
+{
+  "station_hour_csv": {
+    "n_rows": 2589083,
+    "n_columns": 16,
+    "columns": [
+      "StationId",
+      "Datetime",
+      "PM2.5",
+      "PM10",
+      "NO",
+      "NO2",
+      "NOx",
+      "NH3",
+      "CO",
+      "SO2",
+      "O3",
+      "Benzene",
+      "Toluene",
+      "Xylene",
+      "AQI",
+      "AQI_Bucket"
+    ],
+    "dtypes": {
+      "StationId": "object",
+      "Datetime": "object",
+      "PM2.5": "float64",
+      "PM10": "float64",
+      "NO": "float64",
+      "NO2": "float64",
+      "NOx": "float64",
+      "NH3": "float64",
+      "CO": "float64",
+      "SO2": "float64",
+      "O3": "float64",
+      "Benzene": "float64",
+      "Toluene": "float64",
+      "Xylene": "float64",
+      "AQI": "float64",
+      "AQI_Bucket": "object"
+    },
+    "missing_values": {
+      "StationId": 0,
+      "Datetime": 0,
+      "PM2.5": 647689,
+      "PM10": 1119252,
+      "NO": 553711,
+      "NO2": 528973,
+      "NOx": 490808,
+      "NH3": 1236618,
+      "CO": 499302,
+      "SO2": 742737,
+      "O3": 725973,
+      "Benzene": 861579,
+      "Toluene": 1042366,
+      "Xylene": 2075104,
+      "AQI": 570190,
+      "AQI_Bucket": 570190
+    },
+    "duplicate_exact_rows": 0,
+    "unique_stations": 110,
+    "date_range": {
+      "min": "2015-01-01 01:00:00",
+      "max": "2020-07-01 00:00:00",
+      "unparseable_count": 0
+    },
+    "duplicate_station_timestamp_pairs": 0,
+    "pollutant_columns_present": [
+      "PM2.5",
+      "PM10",
+      "NO",
+      "NO2",
+      "NOx",
+      "NH3",
+      "CO",
+      "SO2",
+      "O3",
+      "Benzene",
+      "Toluene",
+      "Xylene",
+      "AQI"
+    ],
+    "numerical_ranges": {
+      "PM2.5": {
+        "min": 0.01,
+        "max": 1000.0,
+        "mean": 80.86481392236712,
+        "missing": 647689,
+        "missing_pct": 25.02
+      },
+      "PM10": {
+        "min": 0.01,
+        "max": 1000.0,
+        "mean": 158.4839062858247,
+        "missing": 1119252,
+        "missing_pct": 43.23
+      },
+      "NO": {
+        "min": 0.01,
+        "max": 500.0,
+        "mean": 22.7882534642316,
+        "missing": 553711,
+        "missing_pct": 21.39
+      },
+      "NO2": {
+        "min": 0.01,
+        "max": 499.99,
+        "mean": 35.236891355315976,
+        "missing": 528973,
+        "missing_pct": 20.43
+      },
+      "NOx": {
+        "min": 0.0,
+        "max": 500.0,
+        "mean": 40.551148338516164,
+        "missing": 490808,
+        "missing_pct": 18.96
+      },
+      "NH3": {
+        "min": 0.01,
+        "max": 499.97,
+        "mean": 28.708555733420088,
+        "missing": 1236618,
+        "missing_pct": 47.76
+      },
+      "CO": {
+        "min": 0.0,
+        "max": 498.57,
+        "mean": 1.502366046968558,
+        "missing": 499302,
+        "missing_pct": 19.28
+      },
+      "SO2": {
+        "min": 0.01,
+        "max": 199.96,
+        "mean": 12.116024564193278,
+        "missing": 742737,
+        "missing_pct": 28.69
+      },
+      "O3": {
+        "min": 0.01,
+        "max": 997.0,
+        "mean": 38.06408486884832,
+        "missing": 725973,
+        "missing_pct": 28.04
+      },
+      "Benzene": {
+        "min": 0.0,
+        "max": 498.07,
+        "mean": 3.305493208698793,
+        "missing": 861579,
+        "missing_pct": 33.28
+      },
+      "Toluene": {
+        "min": 0.0,
+        "max": 499.99,
+        "mean": 14.90266320858955,
+        "missing": 1042366,
+        "missing_pct": 40.26
+      },
+      "Xylene": {
+        "min": 0.0,
+        "max": 499.99,
+        "mean": 2.4488809270417664,
+        "missing": 2075104,
+        "missing_pct": 80.15
+      },
+      "AQI": {
+        "min": 5.0,
+        "max": 3133.0,
+        "mean": 180.1730274957613,
+        "missing": 570190,
+        "missing_pct": 22.02
+      }
+    },
+    "negative_invalid_value_counts": {
+      "PM2.5": 0,
+      "PM10": 0,
+      "NO": 0,
+      "NO2": 0,
+      "NOx": 0,
+      "NH3": 0,
+      "CO": 0,
+      "SO2": 0,
+      "O3": 0,
+      "Benzene": 0,
+      "Toluene": 0,
+      "Xylene": 0,
+      "AQI": 0
+    }
+  },
+  "stations_csv": {
+    "n_rows": 230,
+    "n_columns": 5,
+    "columns": [
+      "StationId",
+      "StationName",
+      "City",
+      "State",
+      "Status"
+    ],
+    "dtypes": {
+      "StationId": "object",
+      "StationName": "object",
+      "City": "object",
+      "State": "object",
+      "Status": "object"
+    },
+    "missing_values": {
+      "StationId": 0,
+      "StationName": 0,
+      "City": 0,
+      "State": 0,
+      "Status": 97
+    },
+    "duplicate_exact_rows": 0,
+    "unique_cities": 127,
+    "unique_states": 21,
+    "unique_station_ids": 230
+  },
+  "cpcb_current_snapshot_csv": {
+    "n_rows": 3458,
+    "n_columns": 11,
+    "columns": [
+      "country",
+      "state",
+      "city",
+      "station",
+      "last_update",
+      "latitude",
+      "longitude",
+      "pollutant_id",
+      "pollutant_min",
+      "pollutant_max",
+      "pollutant_avg"
+    ],
+    "dtypes": {
+      "country": "object",
+      "state": "object",
+      "city": "object",
+      "station": "object",
+      "last_update": "object",
+      "latitude": "float64",
+      "longitude": "float64",
+      "pollutant_id": "object",
+      "pollutant_min": "float64",
+      "pollutant_max": "float64",
+      "pollutant_avg": "float64"
+    },
+    "missing_values": {
+      "country": 0,
+      "state": 0,
+      "city": 0,
+      "station": 0,
+      "last_update": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "pollutant_id": 0,
+      "pollutant_min": 313,
+      "pollutant_max": 313,
+      "pollutant_avg": 313
+    },
+    "duplicate_exact_rows": 0,
+    "unique_cities": 258,
+    "unique_stations": 494
+  }
+}

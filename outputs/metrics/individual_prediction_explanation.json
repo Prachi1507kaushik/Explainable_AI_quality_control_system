@@ -1,0 +1,56 @@
+{
+  "description": "This explanation identifies features influencing the model prediction. It does not identify causes of pollution.",
+  "model_prediction_pm25_6h": 53.50917053222656,
+  "actual_pm25_6h": 68.43,
+  "baseline_prediction": 72.77205657958984,
+  "prediction_difference_from_baseline": -19.26288604736328,
+  "row_metadata": {
+    "station_id": "DL012",
+    "station_name": "IGI Airport (T3), Delhi - IMD",
+    "city": "Delhi",
+    "state": "Delhi",
+    "datetime": "2020-05-24 05:00:00"
+  },
+  "top_5_features_influencing_model_prediction": [
+    {
+      "rank": 1,
+      "feature": "pm2_5_roll_mean_24h",
+      "shap_value": -8.369208335876465,
+      "absolute_shap_value": 8.369208335876465,
+      "direction": "decreases predicted PM2.5",
+      "feature_value": 52.85375
+    },
+    {
+      "rank": 2,
+      "feature": "pm2_5",
+      "shap_value": -6.341919422149658,
+      "absolute_shap_value": 6.341919422149658,
+      "direction": "decreases predicted PM2.5",
+      "feature_value": 49.34
+    },
+    {
+      "rank": 3,
+      "feature": "month_cos",
+      "shap_value": -3.0278005599975586,
+      "absolute_shap_value": 3.0278005599975586,
+      "direction": "decreases predicted PM2.5",
+      "feature_value": -0.8660254037844387
+    },
+    {
+      "rank": 4,
+      "feature": "hour_sin",
+      "shap_value": -2.7123732566833496,
+      "absolute_shap_value": 2.7123732566833496,
+      "direction": "decreases predicted PM2.5",
+      "feature_value": 0.9659258262890684
+    },
+    {
+      "rank": 5,
+      "feature": "hour_cos",
+      "shap_value": 2.41400408744812,
+      "absolute_shap_value": 2.41400408744812,
+      "direction": "increases predicted PM2.5",
+      "feature_value": 0.2588190451025207
+    }
+  ]
+}

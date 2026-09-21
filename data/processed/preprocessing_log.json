@@ -1,0 +1,156 @@
+{
+  "raw_station_hour_shape": [
+    2589083,
+    16
+  ],
+  "raw_stations_shape": [
+    230,
+    5
+  ],
+  "standardized_hourly_columns": [
+    "station_id",
+    "datetime",
+    "pm2_5",
+    "pm10",
+    "no",
+    "no2",
+    "nox",
+    "nh3",
+    "co",
+    "so2",
+    "o3",
+    "benzene",
+    "toluene",
+    "xylene",
+    "aqi",
+    "aqi_bucket"
+  ],
+  "standardized_stations_columns": [
+    "station_id",
+    "station_name",
+    "city",
+    "state",
+    "status"
+  ],
+  "exact_duplicates_removed": 0,
+  "exact_duplicates_removed_stations": 0,
+  "unparseable_datetimes": 0,
+  "duplicate_station_timestamp_pairs": 0,
+  "rows_with_any_negative_pollutant_value": 0,
+  "negative_values_note": "None found in this dataset. If present, such rows would be FLAGGED, not silently deleted, since a negative concentration is physically impossible and should be inspected manually.",
+  "rows_missing_metadata_after_merge": 0,
+  "missing_value_strategy": "For each pollutant, gaps of 2 consecutive hours or fewer, within a single station's own chronologically-sorted series, are forward-filled from that station's last known reading (ffill with a strict limit). This uses only past data - never future data, never another station's data. Gaps longer than the limit are left as genuine NaN - they are NOT interpolated, NOT backfilled, and NOT replaced with a mean/median, since that would either leak future information or invent values with no real sensor support. Every filled cell is flagged in a companion `<pollutant>_was_filled` boolean column so filled values remain fully traceable and can be excluded later if a stricter analysis is needed.",
+  "missing_value_fill_counts_per_pollutant": {
+    "pm2_5": {
+      "missing_before": 647689,
+      "filled_short_gaps": 38931,
+      "still_missing_after": 608758
+    },
+    "pm10": {
+      "missing_before": 1119252,
+      "filled_short_gaps": 29105,
+      "still_missing_after": 1090147
+    },
+    "no": {
+      "missing_before": 553711,
+      "filled_short_gaps": 41000,
+      "still_missing_after": 512711
+    },
+    "no2": {
+      "missing_before": 528973,
+      "filled_short_gaps": 35750,
+      "still_missing_after": 493223
+    },
+    "nox": {
+      "missing_before": 490808,
+      "filled_short_gaps": 32594,
+      "still_missing_after": 458214
+    },
+    "nh3": {
+      "missing_before": 1236618,
+      "filled_short_gaps": 22864,
+      "still_missing_after": 1213754
+    },
+    "co": {
+      "missing_before": 499302,
+      "filled_short_gaps": 53640,
+      "still_missing_after": 445662
+    },
+    "so2": {
+      "missing_before": 742737,
+      "filled_short_gaps": 47927,
+      "still_missing_after": 694810
+    },
+    "o3": {
+      "missing_before": 725973,
+      "filled_short_gaps": 32756,
+      "still_missing_after": 693217
+    },
+    "benzene": {
+      "missing_before": 861579,
+      "filled_short_gaps": 27552,
+      "still_missing_after": 834027
+    },
+    "toluene": {
+      "missing_before": 1042366,
+      "filled_short_gaps": 27542,
+      "still_missing_after": 1014824
+    },
+    "xylene": {
+      "missing_before": 2075104,
+      "filled_short_gaps": 7531,
+      "still_missing_after": 2067573
+    },
+    "aqi": {
+      "missing_before": 570190,
+      "filled_short_gaps": 7912,
+      "still_missing_after": 562278
+    }
+  },
+  "final_shape": [
+    2589083,
+    34
+  ],
+  "final_columns": [
+    "station_id",
+    "datetime",
+    "pm2_5",
+    "pm10",
+    "no",
+    "no2",
+    "nox",
+    "nh3",
+    "co",
+    "so2",
+    "o3",
+    "benzene",
+    "toluene",
+    "xylene",
+    "aqi",
+    "aqi_bucket",
+    "negative_value_flag",
+    "station_name",
+    "city",
+    "state",
+    "status",
+    "pm2_5_was_filled",
+    "pm10_was_filled",
+    "no_was_filled",
+    "no2_was_filled",
+    "nox_was_filled",
+    "nh3_was_filled",
+    "co_was_filled",
+    "so2_was_filled",
+    "o3_was_filled",
+    "benzene_was_filled",
+    "toluene_was_filled",
+    "xylene_was_filled",
+    "aqi_was_filled"
+  ],
+  "date_range": [
+    "2015-01-01 01:00:00",
+    "2020-07-01 00:00:00"
+  ],
+  "unique_stations": 110,
+  "unique_cities": 26
+}

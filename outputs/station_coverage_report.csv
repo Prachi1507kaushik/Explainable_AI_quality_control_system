@@ -1,0 +1,111 @@
+station_id,station_name,city,state,first_reading,last_reading,span_days,n_records,n_pm25_present,pm25_coverage
+HR012,"Sector-51, Gurugram - HSPCB",Gurugram,Haryana,2020-03-05 16:00:00,2020-07-01,117,2817,2799,0.9936
+DL010,"Dwarka-Sector 8, Delhi - DPCC",Delhi,Delhi,2018-02-01 08:00:00,2020-07-01,880,21137,20954,0.9913
+DL024,"Nehru Nagar, Delhi - DPCC",Delhi,Delhi,2018-02-01 11:00:00,2020-07-01,880,21134,20945,0.9911
+RJ004,"Adarsh Nagar, Jaipur - RSPCB",Jaipur,Rajasthan,2017-10-13 16:00:00,2020-07-01,991,23793,23566,0.9905
+DL018,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,Delhi,2018-02-01 01:00:00,2020-07-01,880,21144,20926,0.9897
+DL036,"Sri Aurobindo Marg, Delhi - DPCC",Delhi,Delhi,2018-07-03 19:00:00,2020-07-01,728,17478,17261,0.9876
+DL003,"Ashok Vihar, Delhi - DPCC",Delhi,Delhi,2018-02-01 09:00:00,2020-07-01,880,21136,20860,0.9869
+WB009,"Fort William, Kolkata - WBPCB",Kolkata,West Bengal,2019-05-31 13:00:00,2020-07-01,396,9516,9378,0.9855
+RJ006,"Shastri Nagar, Jaipur - RSPCB",Jaipur,Rajasthan,2017-10-24 11:00:00,2020-07-01,980,23534,23176,0.9848
+MH010,"Powai, Mumbai - MPCB",Mumbai,Maharashtra,2019-06-04 11:00:00,2020-07-01,392,9422,9276,0.9845
+DL027,"Patparganj, Delhi - DPCC",Delhi,Delhi,2018-02-01 11:00:00,2020-07-01,880,21134,20791,0.9838
+DL015,"Jahangirpuri, Delhi - DPCC",Delhi,Delhi,2018-02-01 09:00:00,2020-07-01,880,21136,20789,0.9836
+DL026,"Okhla Phase-2, Delhi - DPCC",Delhi,Delhi,2018-02-01 11:00:00,2020-07-01,880,21134,20740,0.9814
+DL038,"Wazirpur, Delhi - DPCC",Delhi,Delhi,2018-02-01 11:00:00,2020-07-01,880,21134,20710,0.9799
+AS001,"Railway Colony, Guwahati - APCB",Guwahati,Assam,2019-02-16 23:00:00,2020-07-01,500,12002,11744,0.9785
+DL035,"Sonia Vihar, Delhi - DPCC",Delhi,Delhi,2018-02-01 11:00:00,2020-07-01,880,21134,20669,0.978
+DL005,"Bawana, Delhi - DPCC",Delhi,Delhi,2018-07-04 19:00:00,2020-07-01,727,17454,17029,0.9757
+DL016,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,Delhi,2018-02-01 09:00:00,2020-07-01,880,21136,20601,0.9747
+BR009,"Rajbansi Nagar, Patna - BSPCB",Patna,Bihar,2019-12-24 18:00:00,2020-07-01,189,4543,4426,0.9742
+DL037,"Vivek Vihar, Delhi - DPCC",Delhi,Delhi,2018-02-01 11:00:00,2020-07-01,880,21134,20577,0.9736
+BR010,"Samanpura, Patna - BSPCB",Patna,Bihar,2019-12-24 18:00:00,2020-07-01,189,4543,4423,0.9736
+DL020,"Mundka, Delhi - DPCC",Delhi,Delhi,2018-07-03 19:00:00,2020-07-01,728,17478,17008,0.9731
+WB010,"Jadavpur, Kolkata - WBPCB",Kolkata,West Bengal,2019-06-03 11:00:00,2020-07-01,393,9446,9188,0.9727
+HR013,"Teri Gram, Gurugram - HSPCB",Gurugram,Haryana,2020-03-05 16:00:00,2020-07-01,117,2817,2737,0.9716
+KL004,"Vyttila, Kochi - Kerala PCB",Kochi,Kerala,2020-01-22 11:00:00,2020-07-01,160,3854,3740,0.9704
+UP016,"Talkatora District Industries Center, Lucknow - CPCB",Lucknow,Uttar Pradesh,2017-09-26 18:00:00,2020-07-01,1008,24199,23472,0.97
+DL032,"Rohini, Delhi - DPCC",Delhi,Delhi,2018-02-01 11:00:00,2020-07-01,880,21134,20496,0.9698
+MH014,"Worli, Mumbai - MPCB",Mumbai,Maharashtra,2019-06-11 10:00:00,2020-07-01,385,9255,8951,0.9672
+DL023,"Narela, Delhi - DPCC",Delhi,Delhi,2018-02-01 11:00:00,2020-07-01,880,21134,20404,0.9655
+DL022,"Najafgarh, Delhi - DPCC",Delhi,Delhi,2018-02-01 11:00:00,2020-07-01,880,21134,20248,0.9581
+BR008,"Muradpur, Patna - BSPCB",Patna,Bihar,2019-12-24 18:00:00,2020-07-01,189,4543,4349,0.9573
+MP001,"T T Nagar, Bhopal - MPPCB",Bhopal,Madhya Pradesh,2019-09-17 10:00:00,2020-07-01,287,6903,6608,0.9573
+WB007,"Ballygunge, Kolkata - WBPCB",Kolkata,West Bengal,2019-08-30 11:00:00,2020-07-01,305,7334,7016,0.9566
+TG003,"ICRISAT Patancheru, Hyderabad - TSPCB",Hyderabad,Telangana,2017-02-15 11:00:00,2020-07-01,1231,29558,28214,0.9545
+DL001,"Alipur, Delhi - DPCC",Delhi,Delhi,2018-11-11 15:00:00,2020-07-01,597,14338,13647,0.9518
+WB008,"Bidhannagar, Kolkata - WBPCB",Kolkata,West Bengal,2019-08-21 16:00:00,2020-07-01,314,7545,7164,0.9495
+MH011,"Sion, Mumbai - MPCB",Mumbai,Maharashtra,2019-06-20 14:00:00,2020-07-01,376,9035,8491,0.9398
+MH008,"Colaba, Mumbai - MPCB",Mumbai,Maharashtra,2019-06-24 12:00:00,2020-07-01,372,8941,8397,0.9392
+DL029,"Pusa, Delhi - DPCC",Delhi,Delhi,2018-07-03 19:00:00,2020-07-01,728,17478,16411,0.939
+CH001,"Sector-25, Chandigarh - CPCC",Chandigarh,Chandigarh,2019-09-02 10:00:00,2020-07-01,302,7263,6746,0.9288
+KA011,"Silk Board, Bengaluru - KSPCB",Bengaluru,Karnataka,2018-06-29 19:00:00,2020-07-01,732,17574,16239,0.924
+KA002,"BTM Layout, Bengaluru - CPCB",Bengaluru,Karnataka,2018-01-09 12:00:00,2020-07-01,903,21685,19954,0.9202
+RJ005,"Police Commissionerate, Jaipur - RSPCB",Jaipur,Rajasthan,2017-06-14 08:00:00,2020-07-01,1112,26705,24540,0.9189
+UP013,"Gomti Nagar, Lucknow - UPPCB",Lucknow,Uttar Pradesh,2019-08-21 16:00:00,2020-07-01,314,7545,6931,0.9186
+TG002,"Central University, Hyderabad - TSPCB",Hyderabad,Telangana,2017-06-13 15:00:00,2020-07-01,1113,26722,24443,0.9147
+KL002,"Kacheripady, Ernakulam - Kerala PCB",Ernakulam,Kerala,2020-01-22 13:00:00,2020-07-01,160,3852,3519,0.9136
+BR006,"Govt. High School Shikarpur, Patna - BSPCB",Patna,Bihar,2020-03-03 18:00:00,2020-07-01,119,2863,2607,0.9106
+TG004,"IDA Pashamylaram, Hyderabad - TSPCB",Hyderabad,Telangana,2016-09-01 12:00:00,2020-07-01,1398,33565,30523,0.9094
+DL012,"IGI Airport (T3), Delhi - IMD",Delhi,Delhi,2017-08-31 01:00:00,2020-07-01,1034,24840,22588,0.9093
+MH009,"Kurla, Mumbai - MPCB",Mumbai,Maharashtra,2019-06-06 15:00:00,2020-07-01,390,9370,8516,0.9089
+WB013,"Victoria, Kolkata - WBPCB",Kolkata,West Bengal,2018-04-10 10:00:00,2020-07-01,812,19503,17632,0.9041
+MZ001,"Sikulpuikawn, Aizawl - Mizoram PCB",Aizawl,Mizoram,2020-03-11 09:00:00,2020-07-01,111,2680,2422,0.9037
+DL017,"Lodhi Road, Delhi - IMD",Delhi,Delhi,2017-09-07 11:00:00,2020-07-01,1027,24662,22282,0.9035
+DL034,"Sirifort, Delhi - CPCB",Delhi,Delhi,2016-11-03 14:00:00,2020-07-01,1335,32051,28939,0.9029
+DL004,"Aya Nagar, Delhi - IMD",Delhi,Delhi,2017-09-07 12:00:00,2020-07-01,1027,24661,22251,0.9023
+KA007,"Hombegowda Nagar, Bengaluru - KSPCB",Bengaluru,Karnataka,2018-07-03 18:00:00,2020-07-01,728,17479,15678,0.897
+WB011,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,West Bengal,2018-11-06 10:00:00,2020-07-01,602,14463,12949,0.8953
+DL009,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,Delhi,2018-02-01 09:00:00,2020-07-01,880,21136,18869,0.8927
+KL007,"Kariavattom, Thiruvananthapuram - Kerala PCB",Thiruvananthapuram,Kerala,2020-02-13 17:00:00,2020-07-01,138,3320,2963,0.8925
+KA004,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,Karnataka,2018-06-25 15:00:00,2020-07-01,736,17674,15708,0.8888
+DL030,"Pusa, Delhi - IMD",Delhi,Delhi,2017-09-06 14:00:00,2020-07-01,1028,24683,21835,0.8846
+TN005,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,2019-06-12 12:00:00,2020-07-01,384,9229,8156,0.8837
+MH007,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",Mumbai,Maharashtra,2019-06-04 10:00:00,2020-07-01,392,9423,8298,0.8806
+WB012,"Rabindra Sarobar, Kolkata - WBPCB",Kolkata,West Bengal,2019-08-06 11:00:00,2020-07-01,329,7910,6964,0.8804
+KA006,"Hebbal, Bengaluru - KSPCB",Bengaluru,Karnataka,2018-06-25 12:00:00,2020-07-01,736,17677,15536,0.8789
+KL008,"Plammoodu, Thiruvananthapuram - Kerala PCB",Thiruvananthapuram,Kerala,2017-06-16 14:00:00,2020-07-01,1110,26651,23409,0.8784
+AP001,"Secretariat, Amaravati - APPCB",Amaravati,Andhra Pradesh,2017-11-24 17:00:00,2020-07-01,949,22784,19820,0.8699
+DL025,"North Campus, DU, Delhi - IMD",Delhi,Delhi,2017-08-31 01:00:00,2020-07-01,1034,24840,21521,0.8664
+KA008,"Jayanagar 5th Block, Bengaluru - KSPCB",Bengaluru,Karnataka,2018-06-25 01:00:00,2020-07-01,736,17688,15048,0.8507
+PB001,"Golden Temple, Amritsar - PPCB",Amritsar,Punjab,2017-02-27 12:00:00,2020-07-01,1219,29269,24824,0.8481
+UP014,"Lalbagh, Lucknow - CPCB",Lucknow,Uttar Pradesh,2015-01-01 01:00:00,2020-07-01,2007,48192,39931,0.8286
+UP012,"Central School, Lucknow - CPCB",Lucknow,Uttar Pradesh,2015-01-01 01:00:00,2020-07-01,2007,48192,39896,0.8279
+DL031,"R K Puram, Delhi - DPCC",Delhi,Delhi,2015-04-04 11:00:00,2020-07-01,1914,45950,37998,0.8269
+TN002,"Manali Village, Chennai - TNPCB",Chennai,Tamil Nadu,2019-06-19 01:00:00,2020-07-01,377,9072,7498,0.8265
+TN001,"Alandur Bus Depot, Chennai - CPCB",Chennai,Tamil Nadu,2015-01-01 01:00:00,2020-07-01,2007,48192,39548,0.8206
+DL002,"Anand Vihar, Delhi - DPCC",Delhi,Delhi,2015-04-04 11:00:00,2020-07-01,1914,45950,36808,0.801
+HR014,"Vikas Sadan, Gurugram - HSPCB",Gurugram,Haryana,2015-11-27 15:00:00,2020-07-01,1677,40258,32240,0.8008
+MH013,"Vile Parle West, Mumbai - MPCB",Mumbai,Maharashtra,2019-06-03 16:00:00,2020-07-01,393,9441,7509,0.7954
+KA009,"Peenya, Bengaluru - CPCB",Bengaluru,Karnataka,2015-01-01 01:00:00,2020-07-01,2007,48192,38314,0.795
+HR011,"NISE Gwal Pahari, Gurugram - IMD",Gurugram,Haryana,2017-12-31 01:00:00,2020-07-01,912,21912,17289,0.789
+KA003,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,Karnataka,2015-01-01 01:00:00,2020-07-01,2007,48192,37806,0.7845
+AP005,"GVM Corporation, Visakhapatnam - APPCB",Visakhapatnam,Andhra Pradesh,2016-07-01 12:00:00,2020-07-01,1460,35053,26934,0.7684
+MH006,"Borivali East, Mumbai - MPCB",Mumbai,Maharashtra,2019-06-12 12:00:00,2020-07-01,384,9229,7085,0.7677
+DL021,"NSIT Dwarka, Delhi - CPCB",Delhi,Delhi,2015-01-01 01:00:00,2020-07-01,2007,48192,36901,0.7657
+DL028,"Punjabi Bagh, Delhi - DPCC",Delhi,Delhi,2015-04-07 17:00:00,2020-07-01,1911,45872,34682,0.7561
+TG001,"Bollaram Industrial Area, Hyderabad - TSPCB",Hyderabad,Telangana,2017-02-15 11:00:00,2020-07-01,1231,29558,22010,0.7446
+UP015,"Nishant Ganj, Lucknow - UPPCB",Lucknow,Uttar Pradesh,2017-12-08 15:00:00,2020-01-01,753,18082,13440,0.7433
+DL006,"Burari Crossing, Delhi - IMD",Delhi,Delhi,2017-08-31 01:00:00,2020-01-01,852,20472,15165,0.7408
+OD001,"GM Office, Brajrajnagar - OSPCB",Brajrajnagar,Odisha,2017-12-07 21:00:00,2020-07-01,936,22468,16156,0.7191
+BR007,"IGSC Planetarium Complex, Patna - BSPCB",Patna,Bihar,2015-06-01 15:00:00,2020-07-01,1856,44554,31966,0.7175
+MH012,"Vasai West, Mumbai - MPCB",Mumbai,Maharashtra,2019-06-03 15:00:00,2020-07-01,393,9442,6738,0.7136
+DL019,"Mandir Marg, Delhi - DPCC",Delhi,Delhi,2015-04-09 15:00:00,2020-07-01,1909,45826,32209,0.7029
+OD002,"Talcher Coalfields,Talcher - OSPCB",Talcher,Odisha,2017-12-20 16:00:00,2020-07-01,923,22161,15559,0.7021
+TN004,"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,2015-01-01 01:00:00,2020-07-01,2007,48192,33700,0.6993
+TN003,"Manali, Chennai - CPCB",Chennai,Tamil Nadu,2015-01-01 01:00:00,2020-07-01,2007,48192,33579,0.6968
+ML001,"Lumpyngngad, Shillong - Meghalaya PCB",Shillong,Meghalaya,2019-08-27 15:00:00,2020-07-01,308,7402,5120,0.6917
+TG005,"Sanathnagar, Hyderabad - TSPCB",Hyderabad,Telangana,2015-01-04 14:00:00,2020-07-01,2004,48107,32494,0.6755
+GJ001,"Maninagar, Ahmedabad - GPCB",Ahmedabad,Gujarat,2015-01-01 01:00:00,2020-07-01,2007,48192,31601,0.6557
+TG006,"Zoo Park, Hyderabad - TSPCB",Hyderabad,Telangana,2015-09-02 16:00:00,2020-07-01,1763,42321,26662,0.63
+DL013,"IHBAS, Dilshad Garden, Delhi - CPCB",Delhi,Delhi,2015-01-01 01:00:00,2020-07-01,2007,48192,29746,0.6172
+DL007,"CRRI Mathura Road, Delhi - IMD",Delhi,Delhi,2015-01-01 01:00:00,2020-07-01,2007,48192,27980,0.5806
+DL033,"Shadipur, Delhi - CPCB",Delhi,Delhi,2015-01-01 01:00:00,2020-07-01,2007,48192,25183,0.5226
+DL008,"DTU, Delhi - CPCB",Delhi,Delhi,2015-01-01 01:00:00,2020-07-01,2007,48192,22540,0.4677
+DL014,"ITO, Delhi - CPCB",Delhi,Delhi,2015-01-03 17:00:00,2020-07-01,2005,48128,22328,0.4639
+MH005,"Bandra, Mumbai - MPCB",Mumbai,Maharashtra,2015-01-01 01:00:00,2020-07-01,2007,48192,16744,0.3474
+JH001,"Tata Stadium, Jorapokhar - JSPCB",Jorapokhar,Jharkhand,2017-04-20 08:00:00,2020-07-01,1167,28025,8415,0.3003
+BR005,"DRM Office Danapur, Patna - BSPCB",Patna,Bihar,2020-02-27 16:00:00,2020-07-01,124,2985,660,0.2211
+DL011,"East Arjun Nagar, Delhi - CPCB",Delhi,Delhi,2016-04-01 13:00:00,2020-07-01,1551,37236,0,0.0
+KA010,"Sanegurava Halli, Bengaluru - KSPCB",Bengaluru,Karnataka,2015-11-07 17:00:00,2020-07-01,1697,40736,0,0.0
+KA005,"City Railway Station, Bengaluru - KSPCB",Bengaluru,Karnataka,2015-11-10 14:00:00,2020-07-01,1694,40667,0,0.0

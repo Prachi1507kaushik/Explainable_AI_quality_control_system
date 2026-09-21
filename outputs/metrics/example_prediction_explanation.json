@@ -1,0 +1,37 @@
+{
+  "model_name": "xgboost",
+  "example_predicted_pm25_6h": 657.317626953125,
+  "top_5_features_influencing_this_prediction": [
+    {
+      "feature": "pm2_5",
+      "shap_value": 192.92681884765625,
+      "feature_value": 541.25,
+      "direction": "increases predicted PM2.5"
+    },
+    {
+      "feature": "pm2_5_roll_mean_24h",
+      "shap_value": 139.3238525390625,
+      "feature_value": 240.57083333333333,
+      "direction": "increases predicted PM2.5"
+    },
+    {
+      "feature": "so2_roll_mean_12h",
+      "shap_value": 65.99069213867188,
+      "feature_value": 2.556666666666666,
+      "direction": "increases predicted PM2.5"
+    },
+    {
+      "feature": "so2_roll_mean_6h",
+      "shap_value": 37.052833557128906,
+      "feature_value": 2.0300000000000025,
+      "direction": "increases predicted PM2.5"
+    },
+    {
+      "feature": "aqi",
+      "shap_value": 27.78127670288086,
+      "feature_value": 402.0,
+      "direction": "increases predicted PM2.5"
+    }
+  ],
+  "language_note": "These are features that INFLUENCED THE MODEL'S PREDICTION for this specific example, based on SHAP attribution. This is not a causal claim about what causes real-world air pollution."
+}

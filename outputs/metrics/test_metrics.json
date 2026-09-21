@@ -1,0 +1,35 @@
+{
+  "phase": "Phase 10 - Model Evaluation",
+  "model": "xgboost",
+  "target": "target_pm25_6h",
+  "forecast_horizon_hours": 6,
+  "stations_used": [
+    "TG004",
+    "DL034",
+    "TG003",
+    "RJ005",
+    "TG002",
+    "RJ004",
+    "UP016",
+    "KL008",
+    "RJ006",
+    "DL012"
+  ],
+  "n_stations": 10,
+  "test_samples": 69986,
+  "test_start": "2019-09-01 00:00:00",
+  "test_end": "2020-06-30 18:00:00",
+  "metrics": {
+    "mae": 20.449464345884913,
+    "rmse": 38.67128213147965,
+    "r2": 0.6766197075175416
+  },
+  "feature_count": 103,
+  "evaluation_notes": [
+    "Model was loaded without retraining.",
+    "Test data was not modified.",
+    "Imputer was loaded from the saved training model bundle.",
+    "Feature columns were taken from model metadata.",
+    "Test split was reconstructed using the training split boundaries."
+  ]
+}

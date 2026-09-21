@@ -1,0 +1,29 @@
+{
+  "model_name": "xgboost",
+  "test_set_size": 69986,
+  "test_date_range": [
+    "2019-09-01 00:00:00",
+    "2020-06-30 18:00:00"
+  ],
+  "overall_metrics": {
+    "mae": 20.449464345884913,
+    "rmse": 38.67128213147965,
+    "r2": 0.6766197075175416,
+    "n_rows": 69986
+  },
+  "high_pollution_threshold_ug_m3": 91.0,
+  "high_pollution_threshold_source": "CPCB National AQI 'Poor' category breakpoint (config.CPCB_PM25_BREAKPOINTS)",
+  "high_pollution_metrics": {
+    "mae": 54.228553820681896,
+    "rmse": 84.3938143196051,
+    "r2": 0.34106954224561703,
+    "n_rows": 10499
+  },
+  "normal_pollution_metrics": {
+    "mae": 14.487713704637354,
+    "rmse": 22.413667807288153,
+    "r2": -0.06854025268457753,
+    "n_rows": 59487
+  },
+  "note": "Evaluation performed on the untouched test set only. The model was NOT retrained and the imputer was NOT refit for this evaluation - both were loaded exactly as saved by src/train.py."
+}
